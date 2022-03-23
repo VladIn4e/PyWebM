@@ -8,7 +8,7 @@ def ExecuteCommand(command):
 
 
 def main():
-    host = '192.168.1.68'
+    host = input('ip -> ')
     port = 9090
     while True:
         while True:
